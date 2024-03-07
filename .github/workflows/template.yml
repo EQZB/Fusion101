@@ -156,9 +156,9 @@ jobs:
           targetPlatform: WebGL
 
       - uses: actions/upload-artifact@v2
-          with:
-            name: build-WebGL
-            path: build/WebGL
+        with:
+          name: build-WebGL
+          path: build/WebGL
 
   deployPages:
     needs: buildWebGL
